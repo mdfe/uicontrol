@@ -17,7 +17,7 @@
 Selectize.define('remove_button', function(options) {
 	options = $.extend({
 			label     : '&times;',
-			title     : 'Remove',
+			title     : '删除',
 			className : 'remove',
 			append    : true
 		}, options);

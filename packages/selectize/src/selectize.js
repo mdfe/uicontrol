@@ -540,7 +540,7 @@ $.extend(Selectize.prototype, {
 				return;
 			case KEY_BACKSPACE:
 			case KEY_DELETE:
-				self.deleteSelection(e);
+				// self.deleteSelection(e); // 注释（需求不同）
 				return;
 		}
 
@@ -581,7 +581,7 @@ $.extend(Selectize.prototype, {
 		var self = this;
 		var fn = self.settings.load;
 		if (!fn) return;
-		if (self.loadedSearches.hasOwnProperty(value)) return;
+		// if (self.loadedSearches.hasOwnProperty(value)) return; // 注释
 		self.loadedSearches[value] = true;
 		self.load(function(callback) {
 			fn.apply(self, [value, callback]);
@@ -856,7 +856,8 @@ $.extend(Selectize.prototype, {
 		}
 
 		// ensure control has focus
-		self.hideInput();
+		// self.hideInput(); // 注释（需求不同）
+		self.open(); // 添加（需求不同）
 		if (!this.isFocused) {
 			self.focus();
 		}
@@ -1738,11 +1739,13 @@ $.extend(Selectize.prototype, {
 		if (!this.settings.placeholder) return;
 		var $input = this.$control_input;
 
-		if (this.items.length) {
-			$input.removeAttr('placeholder');
-		} else {
-			$input.attr('placeholder', this.settings.placeholder);
-		}
+		// if (this.items.length) {
+		// 	$input.removeAttr('placeholder');
+		// } else {
+		// 	$input.attr('placeholder', this.settings.placeholder);
+		// }
+		// 一直出现placeholder
+		input.attr('placeholder', this.settings.placeholder);
 		$input.triggerHandler('update', {force: true});
 	},
 
