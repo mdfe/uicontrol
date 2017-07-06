@@ -1,0 +1,49 @@
+/*重写AutoComplete样式*/
+.ui-autocomplete {
+    z-index: 10000;
+    max-height: 180px;
+    overflow-y: auto;
+    overflow-x:hidden;
+    background-image: none !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    -moz-border-radius: 0px !important;
+    -khtml-border-radius: 0px !important;
+    -webkit-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -moz-box-shadow: 0px 3px 3px #bbb;
+    -webkit-box-shadow: 0px 3px 3px #bbb;
+    box-shadow: 0px 3px 3px #bbb;
+    font-family: 'Microsoft YaHei' !important;
+}
+.ui-autocomplete .ui-menu-item{
+    line-height: 25px !important;
+    font-size: 12px;
+    color: #666;
+    max-width: 380px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ui-autocomplete .ui-menu-item .ui-corner-all{
+    -moz-border-radius: 0px!important;
+    -khtml-border-radius: 0px!important;
+    -webkit-border-radius: 0px!important;
+    border-radius: 0px!important;
+}
+.ui-autocomplete .ui-state-hover,
+.ui-autocomplete .ui-state-focus {
+    cursor: pointer;
+    font-weight: normal !important;
+    font-family: 'Microsoft YaHei' !important;
+    border: 1px solid #f5f5f5 !important;
+    background-color: #f5f5f5 !important;
+    background-image: none !important;
+    -moz-border-radius: 0px!important;
+    -khtml-border-radius: 0px!important;
+    -webkit-border-radius: 0px!important;
+    border-radius: 0px!important;
+}
+.ui-autocomplete li {
+    font-weight: normal !important;
+}

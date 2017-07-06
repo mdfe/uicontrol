@@ -1,0 +1,11 @@
+{
+  "name": "@mdfe/lightbox",
+  "version": "2.7.1",
+  "description": "",
+  "main": "lightbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

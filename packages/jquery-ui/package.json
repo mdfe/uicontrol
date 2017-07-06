@@ -1,0 +1,11 @@
+{
+  "name": "@mdfe/jquery-ui",
+  "version": "1.11.4",
+  "description": "",
+  "main": "jquery-ui.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

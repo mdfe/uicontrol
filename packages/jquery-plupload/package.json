@@ -1,0 +1,11 @@
+{
+  "name": "@mdfe/jquery-plupload",
+  "version": "2.0.0",
+  "description": "",
+  "main": "plupload2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,182 @@
+/*白色三角*/
+.tip-white {
+	z-index:1001;
+	text-align:left;
+	border:1px solid #ddd;
+	min-width:50px;
+	max-width:300px;
+	color:#333;
+	border-radius: 5px; 
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color:White;
+}
+.tip-white .tip-inner {
+	margin-top:-2px;
+	min-width:50px;
+}
+.tip-white .tip-arrow-top {
+	margin-top:-10px;
+	margin-left:-9px;
+	top:0;
+	left:50%;
+	width:18px;
+	height:10px;
+	background:url(images/whiteArrow.png) no-repeat;
+}
+.tip-white .tip-arrow-top-side
+{
+   left:20px!important;
+}
+.tip-white .tip-arrow-right {
+	margin-top:-9px;
+	margin-left:-5px;
+	top:50%;
+	left:100%;
+	width:10px;
+	height:18px;
+	background:url(images/whiteArrow.png) no-repeat -70px 0;
+}
+.tip-white .tip-arrow-bottom {
+    margin-left: -9px;
+    top: 100%;
+    left:50%;
+    width: 18px;
+    height: 10px;
+    background: url(images/whiteArrow.png) no-repeat 0px -56px;
+}
+.tip-white .tip-arrow-bottom-side
+{
+   background-image:none!important;
+}
+.tip-white .tip-arrow-left {
+	margin-top: -10px;
+    margin-left: -14px;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 20px;
+    background: url(images/whiteArrow.png) no-repeat 0 -80px;
+}
+
+
+/*橙色三角*/
+.tip-orange {
+	z-index:1001;
+	text-align:left;
+	border:1px solid #ff4900;
+	min-width:50px;
+	max-width:300px;
+	color:#333;
+	border-radius: 3px; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color:White;
+}
+.tip-orange .tip-inner {
+	margin-top:-2px;
+	min-width:100px;
+}
+.tip-orange .tip-arrow-top {
+	margin-top:-10px;
+	margin-left:-9px;
+	top:0;
+	left:50%;
+	width:18px;
+	height:10px;
+	background:url(images/orangeArrow.png) no-repeat;
+}
+.tip-orange .tip-arrow-right {
+	margin-top:-9px;
+	margin-left:-5px;
+	top:50%;
+	left:100%;
+	width:10px;
+	height:18px;
+	background:url(images/orangeArrow.png) no-repeat -70px 0;
+}
+.tip-orange .tip-arrow-bottom {
+    margin-left: -9px;
+    top: 100%;
+    left:50%;
+    width: 18px;
+    height: 10px;
+    background: url(images/orangeArrow.png) no-repeat 0px -56px;
+}
+.tip-orange .tip-arrow-left {
+	margin-top: -10px;
+    margin-left: -14px;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 20px;
+    background: url(images/orangeArrow.png) no-repeat 0 -80px;
+}
+
+
+/*白色三角*/
+.tip-darkgray {
+	z-index:1001;
+	text-align:left;
+	border:1px solid #ddd;
+	min-width:50px;
+	max-width:300px;
+	color:#333;
+	border-radius: 3px; 
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color:White;
+}
+.tip-darkgray .tip-inner {
+	margin-top:-2px;
+	min-width:50px;
+}
+.tip-darkgray .tip-arrow-top {
+	margin-top:-10px;
+	margin-left:-9px;
+	top:0;
+	left:20px;
+	width:18px;
+	height:10px;
+	background:url(images/whiteArrow.png) no-repeat;
+}
+.tip-darkgray .tip-arrow-right {
+	margin-top:-9px;
+	margin-left:-5px;
+	top:50%;
+	left:100%;
+	width:10px;
+	height:18px;
+	background:url(images/whiteArrow.png) no-repeat -70px 0;
+}
+.tip-darkgray .tip-arrow-bottom {
+    margin-left: -9px;
+    top: 100%;
+    left:20px;
+    width: 18px;
+    height: 10px;
+    background: url(images/whiteArrow.png) no-repeat 0px -56px;
+}
+.tip-darkgray .tip-arrow-left {
+	margin-top: -10px;
+    margin-left: -14px;
+    top: 50%;
+    left: 0;
+    width: 15px;
+    height: 20px;
+    background: url(images/whiteArrow.png) no-repeat 0 -80px;
+}
+
+.poshytipBGlayer{position: fixed;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  z-index: 1001;
+  opacity: 0.4;
+  -webkit-filter: blur(10px) contrast(0.6) brightness(1.4);
+  /*clip: rect(0px 1335px 1000px 0px);*/
+}
