@@ -1745,7 +1745,7 @@ $.extend(Selectize.prototype, {
 		// 	$input.attr('placeholder', this.settings.placeholder);
 		// }
 		// 一直出现placeholder
-		input.attr('placeholder', this.settings.placeholder);
+		$input.attr('placeholder', this.settings.placeholder);
 		$input.triggerHandler('update', {force: true});
 	},
 
