@@ -1,5 +1,5 @@
 /**
- * selectize.default.css (v0.12.5) - Default Theme
+ * selectize.default.css (v0.12.7) - Default Theme
  * Copyright (c) 2013–2015 Brian Reavis & contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -182,6 +182,7 @@
   background: #1da7ee;
   color: #fff;
   border: 1px solid #0073bb;
+  padding-right: 16px!important;
 }
 .selectize-control.multi .selectize-input > div.active {
   background: #92c836;

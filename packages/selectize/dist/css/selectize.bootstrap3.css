@@ -1,5 +1,5 @@
 /**
- * selectize.bootstrap3.css (v0.12.5) - Bootstrap 3 Theme
+ * selectize.bootstrap3.css (v0.12.7) - Bootstrap 3 Theme
  * Copyright (c) 2013–2015 Brian Reavis & contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -182,6 +182,7 @@
   background: #efefef;
   color: #333333;
   border: 0 solid rgba(0, 0, 0, 0);
+  padding-right: 16px!important;
 }
 .selectize-control.multi .selectize-input > div.active {
   background: #428bca;

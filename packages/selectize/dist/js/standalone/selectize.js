@@ -635,7 +635,7 @@
 }));
 
 /**
- * selectize.js (v0.12.5)
+ * selectize.js (v0.12.7)
  * Copyright (c) 2013–2015 Brian Reavis & contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -663,7 +663,7 @@
 	}
 }(this, function($, Sifter, MicroPlugin) {
 	'use strict';
-
+	require('../css/selectize.css');
 	var highlight = function($element, pattern) {
 		if (typeof pattern === 'string' && !pattern.length) return;
 		var regex = (typeof pattern === 'string') ? new RegExp(pattern, 'i') : pattern;

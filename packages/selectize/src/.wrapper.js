@@ -27,7 +27,7 @@
 	}
 }(this, function($, Sifter, MicroPlugin) {
 	'use strict';
-
+	require('../css/selectize.css');
 	@@js
 
 	return Selectize;

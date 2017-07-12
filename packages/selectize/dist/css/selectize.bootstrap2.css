@@ -1,5 +1,5 @@
 /**
- * selectize.bootstrap2.css (v0.12.5) - Bootstrap 2 Theme
+ * selectize.bootstrap2.css (v0.12.7) - Bootstrap 2 Theme
  * Copyright (c) 2013–2015 Brian Reavis & contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not use this
@@ -182,6 +182,7 @@
   background: #e6e6e6;
   color: #333;
   border: 1px solid #ccc;
+  padding-right: 16px!important;
 }
 .selectize-control.multi .selectize-input > div.active {
   background: #08c;
