@@ -1,6 +1,6 @@
 {
   "name": "@mdfe/jquery-ui",
-  "version": "1.11.4",
+  "version": "1.11.5",
   "description": "",
   "main": "jquery-ui.js",
   "scripts": {
