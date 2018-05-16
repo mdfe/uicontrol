@@ -61,11 +61,15 @@ var MouseBackend = function () {
         return;
       }
 
-      if (this.constructor.isSetUp) {
-        throw new Error('Cannot have two DnD Mouse backend at the same time');
-      }
+      /**
+       * 处理同时页面上可能有2个拖存在 所以注释下下面的isSetUp的源码     不知道会不会产生未知bug
+       */
+      // if (this.constructor.isSetUp) {
+      //   throw new Error('Cannot have two DnD Mouse backend at the same time');
+      // }
 
-      this.constructor.isSetUp = true;
+      // this.constructor.isSetUp = true;
+
       window.addEventListener('mousedown', this.handleWindowMoveStartCapture, true);
       window.addEventListener('mousedown', this.handleWindowMoveStart);
       window.addEventListener('mousemove', this.handleWindowMoveCapture, true);
@@ -83,7 +87,7 @@ var MouseBackend = function () {
         return;
       }
 
-      this.constructor.isSetUp = false;
+      // this.constructor.isSetUp = false;
 
       this.mouseClientOffset = {};
       window.removeEventListener('mousedown', this.handleWindowMoveStartCapture, true);
