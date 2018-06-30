@@ -78,9 +78,9 @@
   color: #fff;
 }
 
-.cancelBtn,
-.applyBtn,
-.singleDatePicker {
+.daterangepicker .cancelBtn,
+.daterangepicker .applyBtn,
+.daterangepicker .singleDatePicker {
   width: 48%;
   height: 30px;
   border: none;
